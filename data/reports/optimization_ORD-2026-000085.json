@@ -1,0 +1,492 @@
+{
+    "simulation_mode": true,
+    "existing_data_modified": false,
+    "order_id": "ORD-2026-000085",
+    "order_status": "CANCELLED",
+    "requested_service": "STANDARD",
+    "feasible_plan_count": 24,
+    "rejected_option_count": 16,
+    "selected_plan": {
+        "order_id": "ORD-2026-000085",
+        "node_id": "FUL-2026-000010",
+        "node_name": "Kolkata Fulfillment Center",
+        "carrier_id": "CAR-001",
+        "carrier_name": "BlueDart",
+        "service_level": "STANDARD",
+        "destination_zone": "ZON-005",
+        "total_units": 5,
+        "dispatch_date": "2026-11-30",
+        "estimated_delivery_date": "2026-12-05",
+        "capacity_utilization_before_allocation_pct": 0.43,
+        "capacity_remaining_before_allocation": 233,
+        "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+    },
+    "alternative_plans": [
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000010",
+            "node_name": "Kolkata Fulfillment Center",
+            "carrier_id": "CAR-004",
+            "carrier_name": "Ecom Express",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 0.43,
+            "capacity_remaining_before_allocation": 233,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000010",
+            "node_name": "Kolkata Fulfillment Center",
+            "carrier_id": "CAR-005",
+            "carrier_name": "XpressBees",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 0.43,
+            "capacity_remaining_before_allocation": 233,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000010",
+            "node_name": "Kolkata Fulfillment Center",
+            "carrier_id": "CAR-006",
+            "carrier_name": "India Post",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 0.43,
+            "capacity_remaining_before_allocation": 233,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000010",
+            "node_name": "Kolkata Fulfillment Center",
+            "carrier_id": "CAR-008",
+            "carrier_name": "Ekart",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 0.43,
+            "capacity_remaining_before_allocation": 233,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000010",
+            "node_name": "Kolkata Fulfillment Center",
+            "carrier_id": "CAR-010",
+            "carrier_name": "Professional Couriers",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 0.43,
+            "capacity_remaining_before_allocation": 233,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000013",
+            "node_name": "Ahmedabad Fulfillment Center",
+            "carrier_id": "CAR-001",
+            "carrier_name": "BlueDart",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 16.67,
+            "capacity_remaining_before_allocation": 370,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000013",
+            "node_name": "Ahmedabad Fulfillment Center",
+            "carrier_id": "CAR-004",
+            "carrier_name": "Ecom Express",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 16.67,
+            "capacity_remaining_before_allocation": 370,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000013",
+            "node_name": "Ahmedabad Fulfillment Center",
+            "carrier_id": "CAR-005",
+            "carrier_name": "XpressBees",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 16.67,
+            "capacity_remaining_before_allocation": 370,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000013",
+            "node_name": "Ahmedabad Fulfillment Center",
+            "carrier_id": "CAR-006",
+            "carrier_name": "India Post",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 16.67,
+            "capacity_remaining_before_allocation": 370,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000013",
+            "node_name": "Ahmedabad Fulfillment Center",
+            "carrier_id": "CAR-008",
+            "carrier_name": "Ekart",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 16.67,
+            "capacity_remaining_before_allocation": 370,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000013",
+            "node_name": "Ahmedabad Fulfillment Center",
+            "carrier_id": "CAR-010",
+            "carrier_name": "Professional Couriers",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 16.67,
+            "capacity_remaining_before_allocation": 370,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000005",
+            "node_name": "Bengaluru Fulfillment Center",
+            "carrier_id": "CAR-001",
+            "carrier_name": "BlueDart",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 21.58,
+            "capacity_remaining_before_allocation": 189,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000005",
+            "node_name": "Bengaluru Fulfillment Center",
+            "carrier_id": "CAR-004",
+            "carrier_name": "Ecom Express",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 21.58,
+            "capacity_remaining_before_allocation": 189,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000005",
+            "node_name": "Bengaluru Fulfillment Center",
+            "carrier_id": "CAR-005",
+            "carrier_name": "XpressBees",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 21.58,
+            "capacity_remaining_before_allocation": 189,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000005",
+            "node_name": "Bengaluru Fulfillment Center",
+            "carrier_id": "CAR-006",
+            "carrier_name": "India Post",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 21.58,
+            "capacity_remaining_before_allocation": 189,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000005",
+            "node_name": "Bengaluru Fulfillment Center",
+            "carrier_id": "CAR-008",
+            "carrier_name": "Ekart",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 21.58,
+            "capacity_remaining_before_allocation": 189,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000005",
+            "node_name": "Bengaluru Fulfillment Center",
+            "carrier_id": "CAR-010",
+            "carrier_name": "Professional Couriers",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 21.58,
+            "capacity_remaining_before_allocation": 189,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000002",
+            "node_name": "Warangal Fulfillment Center",
+            "carrier_id": "CAR-001",
+            "carrier_name": "BlueDart",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 23.59,
+            "capacity_remaining_before_allocation": 379,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000002",
+            "node_name": "Warangal Fulfillment Center",
+            "carrier_id": "CAR-004",
+            "carrier_name": "Ecom Express",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 23.59,
+            "capacity_remaining_before_allocation": 379,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000002",
+            "node_name": "Warangal Fulfillment Center",
+            "carrier_id": "CAR-005",
+            "carrier_name": "XpressBees",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 23.59,
+            "capacity_remaining_before_allocation": 379,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000002",
+            "node_name": "Warangal Fulfillment Center",
+            "carrier_id": "CAR-006",
+            "carrier_name": "India Post",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 23.59,
+            "capacity_remaining_before_allocation": 379,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000002",
+            "node_name": "Warangal Fulfillment Center",
+            "carrier_id": "CAR-008",
+            "carrier_name": "Ekart",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 23.59,
+            "capacity_remaining_before_allocation": 379,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        },
+        {
+            "order_id": "ORD-2026-000085",
+            "node_id": "FUL-2026-000002",
+            "node_name": "Warangal Fulfillment Center",
+            "carrier_id": "CAR-010",
+            "carrier_name": "Professional Couriers",
+            "service_level": "STANDARD",
+            "destination_zone": "ZON-005",
+            "total_units": 5,
+            "dispatch_date": "2026-11-30",
+            "estimated_delivery_date": "2026-12-05",
+            "capacity_utilization_before_allocation_pct": 23.59,
+            "capacity_remaining_before_allocation": 379,
+            "selection_basis": "Earliest estimated delivery date, then lower warehouse capacity utilization, then stable ID order."
+        }
+    ],
+    "rejected_options": [
+        {
+            "node_id": "FUL-2026-000001",
+            "node_name": "Hyderabad Fulfillment Center",
+            "reasons": [
+                "Warehouse does not serve destination zone."
+            ]
+        },
+        {
+            "node_id": "FUL-2026-000003",
+            "node_name": "Vijayawada Fulfillment Center",
+            "reasons": [
+                "Warehouse does not serve destination zone."
+            ]
+        },
+        {
+            "node_id": "FUL-2026-000004",
+            "node_name": "Visakhapatnam Fulfillment Center",
+            "reasons": [
+                "Warehouse does not serve destination zone."
+            ]
+        },
+        {
+            "node_id": "FUL-2026-000006",
+            "node_name": "Chennai Fulfillment Center",
+            "reasons": [
+                "Warehouse does not serve destination zone."
+            ]
+        },
+        {
+            "node_id": "FUL-2026-000007",
+            "node_name": "Mumbai Fulfillment Center",
+            "reasons": [
+                "Insufficient stock for SKU-00071: available 4, required 5."
+            ]
+        },
+        {
+            "node_id": "FUL-2026-000008",
+            "node_name": "Pune Fulfillment Center",
+            "reasons": [
+                "Warehouse does not serve destination zone."
+            ]
+        },
+        {
+            "node_id": "FUL-2026-000009",
+            "node_name": "Delhi Fulfillment Center",
+            "reasons": [
+                "Warehouse does not serve destination zone."
+            ]
+        },
+        {
+            "node_id": "FUL-2026-000011",
+            "node_name": "Kochi Fulfillment Center",
+            "reasons": [
+                "Warehouse does not serve destination zone."
+            ]
+        },
+        {
+            "node_id": "FUL-2026-000012",
+            "node_name": "Jaipur Fulfillment Center",
+            "reasons": [
+                "Warehouse does not serve destination zone."
+            ]
+        },
+        {
+            "node_id": "FUL-2026-000014",
+            "node_name": "Lucknow Fulfillment Center",
+            "reasons": [
+                "Warehouse does not serve destination zone."
+            ]
+        },
+        {
+            "node_id": "FUL-2026-000015",
+            "node_name": "Bhopal Fulfillment Center",
+            "reasons": [
+                "Insufficient stock for SKU-00071: available 1, required 5."
+            ]
+        },
+        {
+            "node_id": "FUL-2026-000016",
+            "node_name": "Nagpur Fulfillment Center",
+            "reasons": [
+                "Warehouse does not serve destination zone."
+            ]
+        },
+        {
+            "node_id": "FUL-2026-000017",
+            "node_name": "Coimbatore Fulfillment Center",
+            "reasons": [
+                "Warehouse does not serve destination zone."
+            ]
+        },
+        {
+            "node_id": "FUL-2026-000018",
+            "node_name": "Mysuru Fulfillment Center",
+            "reasons": [
+                "Insufficient stock for SKU-00071: available 1, required 5."
+            ]
+        },
+        {
+            "node_id": "FUL-2026-000019",
+            "node_name": "Guntur Fulfillment Center",
+            "reasons": [
+                "Warehouse does not serve destination zone."
+            ]
+        },
+        {
+            "node_id": "FUL-2026-000020",
+            "node_name": "Nashik Fulfillment Center",
+            "reasons": [
+                "Warehouse does not serve destination zone."
+            ]
+        }
+    ],
+    "limitations": [
+        "No carrier rate table exists; shipping cost is not scored.",
+        "No warehouse-to-destination distance data exists.",
+        "This simulation uses the current inventory and capacity snapshot.",
+        "Existing orders have already been fulfilled; this is a what-if replay.",
+        "The selected plan is a recommendation, not a new allocation."
+    ]
+}

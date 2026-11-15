@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+data/*.db
+data/generated/*
+data/exports/*
+data/ground_truth/*
+!.gitkeep

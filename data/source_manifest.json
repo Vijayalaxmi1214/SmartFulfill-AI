@@ -1,0 +1,339 @@
+{
+    "system": "SmartFulfill AI",
+    "version": "1.0.0",
+    "generated_at": "2026-11-15T11:21:20.037166+00:00",
+    "random_seed": 20261022,
+    "provenance": "100% synthetically generated via rule-based fulfillment engine. No external confidential/PII data used.",
+    "tables": {
+        "allocation_decisions": {
+            "records": 124849,
+            "columns": [
+                "decision_id",
+                "order_id",
+                "order_line_id",
+                "node_id",
+                "requested_quantity",
+                "allocated_quantity",
+                "decision_status",
+                "reason",
+                "created_at"
+            ],
+            "csv_file": "data/exports/allocation_decisions.csv",
+            "sha256": "84f1a122fdff9ed86795a1adfae41a5ca35bafdd4629181f099cea4b338d5e44",
+            "bytes": 15075287
+        },
+        "allocation_exceptions": {
+            "records": 51571,
+            "columns": [
+                "exception_id",
+                "order_id",
+                "order_line_id",
+                "issue_type",
+                "severity",
+                "unallocated_quantity",
+                "ground_truth_label",
+                "details",
+                "created_at"
+            ],
+            "csv_file": "data/exports/allocation_exceptions.csv",
+            "sha256": "007b78d69b85d9b6e80fc3e745c6495ac0f4010507f91b50dbd53403cd2fb013",
+            "bytes": 10469443
+        },
+        "capacity_events": {
+            "records": 73691,
+            "columns": [
+                "capacity_event_id",
+                "capacity_id",
+                "shipment_id",
+                "event_type",
+                "units_delta",
+                "units_before",
+                "units_after",
+                "event_time"
+            ],
+            "csv_file": "data/exports/capacity_events.csv",
+            "sha256": "56a42319b0e235d5521a733c58254feda0e597ac35cb5aa1fcd50c866aba6499",
+            "bytes": 5889459
+        },
+        "carrier_calendar": {
+            "records": 310,
+            "columns": [
+                "calendar_id",
+                "carrier_id",
+                "service_date",
+                "is_working_day",
+                "cutoff_time"
+            ],
+            "csv_file": "data/exports/carrier_calendar.csv",
+            "sha256": "fdea24451b1bbf4179fe4b6b31ee73fd2407b93d41dd3d527a23606fa509933f",
+            "bytes": 12154
+        },
+        "carrier_services": {
+            "records": 190,
+            "columns": [
+                "carrier_id",
+                "service_level_id",
+                "zone_id",
+                "effective_from",
+                "effective_to"
+            ],
+            "csv_file": "data/exports/carrier_services.csv",
+            "sha256": "bdd23076d1f7a11f22536f505ba52fa2a44d269ffa63de4da73200f6877bd4f6",
+            "bytes": 7095
+        },
+        "carriers": {
+            "records": 10,
+            "columns": [
+                "carrier_id",
+                "carrier_name",
+                "is_active"
+            ],
+            "csv_file": "data/exports/carriers.csv",
+            "sha256": "fd5807256dff103454c4d9f029b01fb4e81818f0939284959b61952c3378edde",
+            "bytes": 258
+        },
+        "delivery_promises": {
+            "records": 30280,
+            "columns": [
+                "promise_id",
+                "order_id",
+                "promise_version",
+                "calculated_at",
+                "promised_delivery_date",
+                "promise_status"
+            ],
+            "csv_file": "data/exports/delivery_promises.csv",
+            "sha256": "774a3feb7352019ade7de8aa9b81dbeb65081e3b1cda143b7462557fdabb19a0",
+            "bytes": 2518679
+        },
+        "fulfillment_nodes": {
+            "records": 20,
+            "columns": [
+                "node_id",
+                "node_name",
+                "city",
+                "state",
+                "node_type",
+                "is_active"
+            ],
+            "csv_file": "data/exports/fulfillment_nodes.csv",
+            "sha256": "8339a41e9efe62682de395b8dcb7fd584404baac261fb919811903392f4d017a",
+            "bytes": 1535
+        },
+        "holiday_calendar": {
+            "records": 10,
+            "columns": [
+                "holiday_id",
+                "holiday_date",
+                "holiday_name",
+                "is_active"
+            ],
+            "csv_file": "data/exports/holiday_calendar.csv",
+            "sha256": "6a24f57325a1e031e967d4a087a64c1bc268db6f3ce396911878b3ad17a21635",
+            "bytes": 497
+        },
+        "inventory": {
+            "records": 2000,
+            "columns": [
+                "inventory_id",
+                "node_id",
+                "sku_id",
+                "on_hand_quantity",
+                "reserved_quantity",
+                "safety_stock",
+                "effective_from",
+                "effective_to"
+            ],
+            "csv_file": "data/exports/inventory.csv",
+            "sha256": "8418c83211b2969068a9ee79dab86144569292c96cc19c23bcca2614dc00d74b",
+            "bytes": 120943
+        },
+        "inventory_events": {
+            "records": 73691,
+            "columns": [
+                "inventory_event_id",
+                "inventory_id",
+                "shipment_id",
+                "event_type",
+                "quantity_delta",
+                "quantity_before",
+                "quantity_after",
+                "event_time"
+            ],
+            "csv_file": "data/exports/inventory_events.csv",
+            "sha256": "aa0ce34b7e33a24d6bb77555bf790f7ddd13f4c5d9a562e7f1477cd0c2d12aa0",
+            "bytes": 5819869
+        },
+        "node_service_zones": {
+            "records": 60,
+            "columns": [
+                "node_id",
+                "zone_id",
+                "effective_from",
+                "effective_to"
+            ],
+            "csv_file": "data/exports/node_service_zones.csv",
+            "sha256": "611ea78b2fef0063dca7fe3abac58c59790b25d6373fdc764fbccdc4debacd40",
+            "bytes": 2265
+        },
+        "order_events": {
+            "records": 80281,
+            "columns": [
+                "order_event_id",
+                "order_id",
+                "previous_status",
+                "new_status",
+                "event_time",
+                "reason"
+            ],
+            "csv_file": "data/exports/order_events.csv",
+            "sha256": "19cb3893726aba7e561866036a6794650dcf3d1849fdaa9d4b8a6d0bb8854e85",
+            "bytes": 8978708
+        },
+        "order_lines": {
+            "records": 124711,
+            "columns": [
+                "order_line_id",
+                "order_id",
+                "sku_id",
+                "quantity",
+                "unit_price"
+            ],
+            "csv_file": "data/exports/order_lines.csv",
+            "sha256": "856731d8ce18875e9106d52106624625ee2ac92ee77bfca4c6db6f7fe082acc0",
+            "bytes": 6333937
+        },
+        "orders": {
+            "records": 50000,
+            "columns": [
+                "order_id",
+                "customer_ref",
+                "order_created_at",
+                "destination_zone_id",
+                "requested_service_level_id",
+                "order_status"
+            ],
+            "csv_file": "data/exports/orders.csv",
+            "sha256": "128b547a1043e31ac72eaf6a1bd1ac58e417aa0a34f2c403a4236109377d0815",
+            "bytes": 3777750
+        },
+        "service_levels": {
+            "records": 3,
+            "columns": [
+                "service_level_id",
+                "service_name",
+                "transit_business_days",
+                "priority"
+            ],
+            "csv_file": "data/exports/service_levels.csv",
+            "sha256": "341e63352462aaaedb422339b8a2b590f52e0e7fb7f31b1e839e43666b29e832",
+            "bytes": 127
+        },
+        "service_zones": {
+            "records": 8,
+            "columns": [
+                "zone_id",
+                "zone_name",
+                "region"
+            ],
+            "csv_file": "data/exports/service_zones.csv",
+            "sha256": "8182fe02766e52acc78682a4205bbea3417220d221f4e519e36ce6e94a4e851e",
+            "bytes": 202
+        },
+        "shipment_lines": {
+            "records": 73691,
+            "columns": [
+                "shipment_line_id",
+                "shipment_id",
+                "order_line_id",
+                "allocated_quantity"
+            ],
+            "csv_file": "data/exports/shipment_lines.csv",
+            "sha256": "f993d57cb49f08a3bbbfd5d0bd053a8499a501370f64ffe0918839107658af4e",
+            "bytes": 3316160
+        },
+        "shipments": {
+            "records": 51988,
+            "columns": [
+                "shipment_id",
+                "order_id",
+                "node_id",
+                "carrier_id",
+                "service_level_id",
+                "shipment_status",
+                "created_at",
+                "dispatched_at",
+                "delivered_at"
+            ],
+            "csv_file": "data/exports/shipments.csv",
+            "sha256": "e12769e5c94a62910664293796e572ceac7e82cdc48486bf0b7e1210da90cb2d",
+            "bytes": 6810554
+        },
+        "skus": {
+            "records": 100,
+            "columns": [
+                "sku_id",
+                "sku_name",
+                "category",
+                "unit_weight_kg",
+                "unit_price",
+                "is_active"
+            ],
+            "csv_file": "data/exports/skus.csv",
+            "sha256": "46ecbf20dfd5457e63b945b47bd8286c9a844dd467166702deb4fd2e429f7bf0",
+            "bytes": 5301
+        },
+        "tracking_events": {
+            "records": 353518,
+            "columns": [
+                "tracking_event_id",
+                "shipment_id",
+                "event_sequence",
+                "event_code",
+                "event_time",
+                "event_location",
+                "event_description"
+            ],
+            "csv_file": "data/exports/tracking_events.csv",
+            "sha256": "8ed4be4d2bad53781859c9fcc0e8c409c1c8d2ec82ef25eb2f814e277edd627a",
+            "bytes": 47496270
+        },
+        "tracking_exceptions": {
+            "records": 18506,
+            "columns": [
+                "tracking_exception_id",
+                "shipment_id",
+                "issue_type",
+                "severity",
+                "expected_delivery_date",
+                "actual_delivery_date",
+                "details",
+                "created_at",
+                "exception_status"
+            ],
+            "csv_file": "data/exports/tracking_exceptions.csv",
+            "sha256": "3f84056eff43430c85f1c8ce5d7985ec313a08e7ccebce5d30acd3dcd77124ea",
+            "bytes": 4134040
+        },
+        "warehouse_capacity": {
+            "records": 620,
+            "columns": [
+                "capacity_id",
+                "node_id",
+                "capacity_date",
+                "max_units",
+                "reserved_units"
+            ],
+            "csv_file": "data/exports/warehouse_capacity.csv",
+            "sha256": "9b95df3f5b159558d1abdc2e5f9c23166f114eff4d06f63288cc61d28f238d2c",
+            "bytes": 29894
+        }
+    },
+    "files": {
+        "smartfulfill_seed.sql": {
+            "path": "data/exports/smartfulfill_seed.sql",
+            "bytes": 176339574,
+            "sha256": "5b1c1377e110751960879c8383c9a7d43e164748c296151ad92e3c53a3be6fff"
+        }
+    }
+}
